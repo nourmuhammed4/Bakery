@@ -1,0 +1,729 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&family=Playfair+Display:wght@500&family=Prompt:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.header{
+  background-image: url(images/hero5.jpg);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 830px;
+    background-color:black;
+    position: relative;
+}
+.header .main{
+  background-color: rgba(86,83,76,40%);
+    height: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(86,83,76,.5);
+}
+.logo{
+        color: #fff;
+        font-family: 'Babylonica', cursive;
+        padding-left: 80px;
+        padding-top: 12px;
+        font-size: 45px;
+}
+.navbar{
+  padding-top: 20px;
+  margin-left: -280px;
+  margin-right: -265px;
+
+
+}
+.navbar ul{
+  color: #fff;
+  list-style: none;
+  font-family: 'Alegreya', serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  list-style: none;
+  overflow: hidden;
+
+
+}
+.navbar li{
+  float:left;
+}
+
+.navbar li:not(:last-of-type)::after{
+  content: " ~";
+  font-size: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+.navbar ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.navbar ul li a:hover{
+  color: #a47d5e;
+}
+.social{
+  margin-right: 60px;
+  margin-top: 17px;
+
+}
+.social li {
+  float: left;
+  list-style: none;
+  width: 24px;
+  margin-right: 30px;
+  color: #fff;
+
+}
+
+.social li a:hover{
+  color: #a47d5e;
+}
+.delicious{
+font-family: 'Playfair Display', serif;
+text-align: center;
+margin-top: 167px;
+color: #fff;
+font-size: 80px;
+text-shadow: 2px 2px grey;
+}
+.delicious p{
+  font-size: 21px;
+  font-family: 'Prompt', sans-serif;
+  line-height: 34px;
+  margin-bottom: -27px;
+
+}
+.delicious button{
+  font-size: 15px;
+  font-family: 'Alegreya', serif;
+  padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    border: none;
+   background-color: rgb(86 83 76 / 50%);
+   margin-top: 79px;
+   transition: .4s;
+}
+.delicious button:hover{
+  color: #a47d5e;
+  background-color: #fff;
+  border: 1px solid #56534c;
+  cursor: pointer;
+font-weight: 600;
+}
+.top-bg{
+  position: absolute;
+  top: 124%;
+  left: 46%;
+  
+  background-image: radial-gradient(white 50%, transparent 45%);
+
+}
+.art-of-cake{
+display: grid;
+grid-template-columns: 50% 50%;
+margin: 100px;
+
+}
+
+.art-of-cake .desc h1{
+  color: #56534c;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  font-size: 49px;
+
+}
+.art-of-cake .desc h5{
+  text-align: center;
+    font-family: 'Alegreya', serif;
+  color: #a47d5e;
+  margin-top: -25px;
+  font-size: 15px;
+  margin-bottom: 60px;
+
+
+}
+.art-of-cake .desc p{
+  color: #56534c;
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+}
+.art-of-cake .desc h3{
+  color: #56534c;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+.chef{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.chef span{
+  font-family: 'Alegreya', serif;
+  font-size: 23px;
+  color: #56534c;
+  border-bottom: 1px solid #c2c2c0;
+  border-top: 1px solid #c2c2c0;
+  position: absolute;
+  margin-top: 55px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+
+}
+.chef img{
+  padding-top: 25px;
+    position: relative;
+    padding-left: 10px;
+}
+.art-of-cake .desc .qoute p {
+  font-family: 'Babylonica', cursive;
+  color: #a47d5e;
+  font-size :40px;
+  padding-top: 58px;
+
+
+}
+.art-of-cake .desc .qoute p::before{
+  content: "\201D";
+  color: #c2c2c0;
+  padding-right: 30px;
+    font-size: 55px;
+}
+
+.art-of-cake .desc .qoute p::after{
+  content: " \201C ";
+  color: #c2c2c0;
+  font-size: 55px;
+
+
+}
+.cake-photos{
+  
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: inherit;
+  position: relative;
+
+}
+.wavy{
+  position: absolute;
+  top: 25%;
+  left: 26%;
+  
+}
+
+.cake-photos .good{
+  position: absolute;
+color: #a47d5e;
+font-size: 30px;
+    text-align: 40%;
+    top: 44%;
+    left: 37%;
+    text-align: center;
+}
+
+.container{
+  background-image: url(images/bg-slides2.jpg);
+  margin-top: 150px;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tasty-pancakes{
+display: flex;
+justify-content: center;  
+padding-top: 110px;
+
+}
+.tasty-pancakes .tasty-photo{
+  flex: 1;
+  padding-right: 100px;
+  margin-left: 146px;
+  background-image: url(images/pancakes.jpg);
+}
+.tasty-pancakes .tasty-desc{
+  flex: 1;
+    padding: 60px;
+    margin-right: 146px;
+    height: 500px;
+    background-image: url(images/mill.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    position: relative;
+
+
+}
+.tasty-pancakes .tasty-desc .ready
+{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url(images/field.png);
+  background-position: center;
+  box-shadow: 5px 10px 18px #888888;
+  right: -21%;
+  top: -10%;
+}
+.tasty-pancakes .tasty-desc .ready h3{
+  color: #a47d5e;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -43px;
+  margin-top: 20px;
+
+}
+.tasty-pancakes .tasty-desc .ready h1{
+color: #dfc691;
+text-align: center;
+font-size: 70px;
+margin-bottom: -20px;
+margin-top: 40px;
+
+}
+.tasty-pancakes .tasty-desc .ready h6{
+  color: #979285;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+
+}
+
+.tasty-pancakes .tasty-desc .tasty-icons img:hover{
+  transform: scale(1.1); 
+}
+.tasty-pancakes .tasty-desc h1{
+  color: #56534c;
+  text-align: left;
+  font-family: 'Alegreya', serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+
+
+
+}
+.tasty-pancakes .tasty-desc h3{
+  color: #a47d5e;
+  text-align: left;
+  font-family: 'Alegreya', serif;
+font-size: 16px;
+
+}
+
+.tasty-pancakes .tasty-desc p{
+  color: #56534c;
+  font-family: 'Prompt', sans-serif;
+  padding-top: 55px;
+  padding-bottom: 57px;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  background-image: url(images/breakfast.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container2 .breakfast-desc{
+padding-top: 55px;
+}
+.container2 .breakfast-desc .breakfast h1{
+  font-family: 'Alegreya', serif;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 2px;
+
+}
+.container2 .breakfast-desc .breakfast h4{
+  font-family: 'Alegreya', serif;
+  color: #c8a593;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.breakfast-desc h2{
+  font-family: 'Alegreya', serif;
+color: #fff;
+text-align: center;
+font-size: 30px;
+margin-bottom: 5px;
+
+}
+
+.breakfast-desc p{
+  color: #c2beba;
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+
+
+}
+.breakfast-desc h3{
+  font-family: 'Alegreya', serif;
+color: #dfc691;
+text-align: center;
+font-size: 35px;
+font-weight: 100;
+margin-bottom: 30px;
+
+
+
+}
+.breakfast-photo {
+  margin-left: 150px;
+    margin-top: 106px;
+    background-image: url(images/rye.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+    border: 2px dashed #9e9c93;
+    margin-bottom: 70px;
+
+}
+.breakfast-photo::after {
+  content: "";
+}
+
+.breakfast-photo .date{
+  background-image: url(images/article-top-bg.png);
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 23px;
+  margin-bottom: -85px;
+  font-weight: 600;
+  height: 74px;
+  background-position-y: 13px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #56534c;
+
+
+
+}
+.breakfast-photo h1{
+  font-family: 'Alegreya', serif;
+  color: #56534c;
+  text-align: center;
+  font-weight: 600;
+  font-size: 44px;
+  padding-top: 125px;
+}
+.breakfast-photo  p{
+  color: #56534c;
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+  padding-top: 26px;
+  font-size: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.breakfast-photo button{
+  color: #fff;
+  background-color: rgba(86,83,76,.5);
+  font-family: 'Alegreya', serif;
+  padding: 16px 70px;
+  border: none;
+  margin-left: 96px;
+  margin-top: 35px;
+  letter-spacing: 2px;
+  transition: .4s;
+
+}
+.breakfast-photo button:hover{
+  background-color: #fff;
+  color: #a47d5e;
+ border: 1px solid black;
+font-weight: 600;
+cursor: pointer;
+
+}
+
+.sandwich{
+  margin-top: -27px;
+  background-color: #f3f1e9;
+  height: 950px;
+  margin-bottom: -16px;
+
+}
+.sandwich .sandwich-title h1{
+  font-family: 'Alegreya', serif;
+  color: #56534c;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: -12px;
+  padding-top: 55px;
+  margin-bottom: 7px;
+  }
+.sandwich .sandwich-title h4{
+  font-family: 'Alegreya', serif;
+  color: #a47d5e;
+text-align: center;
+}
+.sandwich .recipe{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 225px;
+}
+.recipe .grediant{
+  flex: 1;
+  margin-top: 20px;
+  margin-left: -30px;
+  margin-right: 29px;
+
+}
+.recipe .grediant img{
+  padding-left: 100px;
+
+}
+.recipe .recipe-photo{
+  flex: 2;
+  background-image: url(images/sandwich-bg.jpg);
+  margin-right: 125px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 35px;
+  border: 10px solid #fff;
+  position: relative;
+  margin-top: 150px;
+  height: 500px;
+
+}
+
+.recipe .grediant h2{
+  font-family: 'Alegreya', serif;
+  color: #a47d5e;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+
+}
+
+.recipe .grediant p{
+  font-family: 'Prompt', sans-serif;
+  color: #56534c;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.recipe .recipe-photo .cooking{
+  position: absolute;
+  top: -3%;
+  right: 0%;
+}
+.recipe .recipe-photo .cooking-1{
+  width: 200px;
+  height: 200px;
+background-color: rgb(255,255,255,.8);   
+   margin-top: -24px;
+
+}
+.recipe .recipe-photo .cooking-1:hover{
+  background: url(images/field.png) ,#fff;
+}
+
+.recipe .recipe-photo .cooking-2:hover{
+  background: url(images/field.png) ,#fff;
+}
+.recipe .recipe-photo .cooking-3:hover{
+  background: url(images/field.png) ,#fff;
+}
+.recipe .recipe-photo .cooking-1 h3{
+  color: #a47d5e;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -43px;
+  padding-top: 19px;
+
+
+}
+.recipe-photo .cooking-1 h1{
+  color: #dfc691;
+text-align: center;
+font-size: 70px;
+margin-bottom: -20px;
+
+}
+.recipe-photo .cooking-1 h6{
+  color: #979285;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+
+.recipe .recipe-photo .cooking-2{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255,255,255,.8);   
+  margin-top: -24px;
+
+}
+.recipe .recipe-photo .cooking-2 h3{
+  color: #a47d5e;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -43px;
+  padding-top: 19px;
+
+
+}
+.recipe-photo .cooking-2 h1{
+  color: #dfc691;
+text-align: center;
+font-size: 70px;
+margin-bottom: -20px;
+
+}
+.recipe-photo .cooking-2 h6{
+  color: #979285;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.recipe .recipe-photo .cooking-3{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255,255,255,.8);   
+  margin-top: -24px;
+
+}
+
+.recipe .recipe-photo .cooking-3 h3{
+  color: #a47d5e;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -43px;
+  padding-top: 19px;
+
+
+}
+.recipe-photo .cooking-3 h1{
+  color: #dfc691;
+text-align: center;
+font-size: 70px;
+margin-bottom: -20px;
+
+}
+.recipe-photo .cooking-3 h6{
+  color: #979285;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.recipe-photo button{
+    font-size: 14px;
+    font-family: 'Alegreya', serif;
+    padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 14px;
+      padding-bottom: 15px;
+      letter-spacing: 2px;
+      color: #fff;
+      border: none;
+     background-color: rgb(86 83 76 / 50%);
+     margin-top: 79px;
+     position: absolute;
+     top: 74%;
+     transition: .4s;
+
+  }
+  .recipe-photo button:hover{
+    color: #a47d5e;
+    background-color: #fff;
+    border: 1px solid #56534c;
+    cursor: pointer;
+  font-weight: 600;
+
+  }
+footer{
+  background-color: #f3f1e9;
+height: 350px;
+}
+footer nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 140px;
+  position: relative;
+  
+}
+footer .footer-nav{
+  
+  border-top: 1px solid #c2beba;
+  border-bottom: 1px solid #c2beba;
+  padding-right: 10px;
+  height: 63px;
+  margin-left: -53px;
+
+}
+footer .logo{
+  color: #35332f;
+  text-decoration: none;
+position: absolute;
+line-height: 70px;
+top: 43%;
+left: 39%
+}
+.footer-nav ul{
+  color: #35332f;
+  list-style: none;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    list-style: none;
+    overflow: hidden;
+    padding-top: 15px;
+
+  
+  }
+  .footer-nav li{
+    float:left;
+  }
+  
+  .footer-nav li:not(:last-of-type)::after{
+    content: " ~";
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .footer-nav ul li a{
+   color:  #35332f;
+   text-decoration: none;
+  padding-left: 30px;
+  }
+  .footer-nav ul li a:hover{
+    color: #a47d5e;
+  }
